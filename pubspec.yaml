@@ -1,0 +1,24 @@
+name: secure_notes
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  encrypt: ^5.0.1
+  firebase_core: ^2.10.0
+  cloud_firestore: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
